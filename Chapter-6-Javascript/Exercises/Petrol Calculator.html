@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="petrol.css">
+    <link rel="stylesheet" href=".css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petro Calculator</title>
+</head>
+
+<body>
+
+    <h1>Petrol Calculator</h1>
+
+<main>
+
+    <div class="main_div">
+
+        <div class="left">
+            <label for="petrol_cost">Cost of petrol per liter:</label>
+            <br><br>
+            <input type="number" id="petrol_cost" />
+        
+            <br><br>
+            <button type="button" onclick="getInputValue()">
+                Calculate
+            </button>
+
+            <p id="output"></p>
+        </div>
+
+        <div class="right">
+            <label for="petrol_purchase">How much liter of petrol do you want to purchase?</label>
+            <br><br>
+            <input type="number" id="petrol_purchase" />
+        
+            <br><br>
+            <button type="button" onclick="getInputValue2()">
+                Calculate
+            </button>
+            
+            <p id="output2"></p>
+        </div>
+        </div>
+</main>
+
+      <script src="petrol.js"></script>
+</body>
+</html>

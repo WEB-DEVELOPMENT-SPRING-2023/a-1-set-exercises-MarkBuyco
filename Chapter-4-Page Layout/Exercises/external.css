@@ -1,0 +1,46 @@
+header {
+    background-color: #17072b;
+    text-align: center;
+    color: white;
+    height: 200px;  
+    font-size: 25px;
+    font: Tahoma;  
+    padding: 10px ;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+
+}
+
+main{
+    font: arial;
+    font-size: 20px;
+    margin:20px ;
+}
+
+h1, h2 {
+    text-decoration: underline;
+}
+
+.main_div {
+    display: flex;
+}
+
+.left{
+    flex: 55%;
+}
+
+.right{
+    flex: 25%;
+}
+
+footer {
+    background-color: #8c15e9;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+}
