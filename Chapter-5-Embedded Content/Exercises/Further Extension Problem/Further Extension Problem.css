@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-image: url(soundboard-background.jpg);
+    background-image: url("images/soundboard-background.jpg");
     background-repeat:no-repeat ;
     background-size: cover;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
