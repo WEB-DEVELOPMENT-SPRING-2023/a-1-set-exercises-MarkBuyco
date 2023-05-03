@@ -1,3 +1,6 @@
+/*Styling for all the advance soundboard. All three link in one CSS file.*/
+
+/*Body styling, to have a bacground image and a diffent font.*/
 body{
     text-align: center;
     background-image: url("images/soundboard-background.jpg");
@@ -8,10 +11,12 @@ body{
     margin: 90px;
 }
 
+/*Bigger heading*/
 h1 {
     font-size: 70px;
 }
 
+/*Button styling, has a background-color, border-radius, border, etc.*/
 button {
     background-color: rgba(70, 31, 9, 0.589);
     border-radius: 20px;
@@ -22,25 +27,30 @@ button {
     font-size: 30px;
 }
 
+/*Adding an hover effect to the buttons.*/
 button:hover {
     background-color: white;
     color: black;
 }
 
+/*The main div having display to flex, to have two columns.*/
 .main_div {
     display: flex;
     margin: 5px;
 
 }
 
+/*Left column equal size to right column.*/
 .left{
     flex: 50%;
 }
 
+/*Right column equal size to left column.*/
 .right{
     flex: 50%;
 }
 
+/*Text area styling.*/
 textarea {
     background-color: rgba(70, 31, 9, 0.589);
     color: rgb(255, 255, 255);
@@ -50,6 +60,7 @@ textarea {
     border: none;
 }
 
+/*Input styling, button.*/
 input {
     font-size: 30px;
     margin-top: 1rem;
@@ -61,6 +72,7 @@ input {
 
 }
 
+/*Hover effect for the input styling.*/
 input:hover{
     background-color: white;
     color: black;

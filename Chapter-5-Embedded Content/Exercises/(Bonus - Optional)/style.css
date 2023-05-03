@@ -1,3 +1,6 @@
+/*Styling for the soundboard.*/
+
+/*Body styling, with text-align, background-image, and different font.*/
 body{
     text-align: center;
     background-image: url(soundboard-background.jpg);
@@ -8,10 +11,13 @@ body{
     margin: 90px;
 }
 
+/*heading styling, bigger font.*/
 h1 {
     font-size: 70px;
 }
 
+/*Button styling, with background-color, border-radius, border, padding, color, margin, and bigger
+font size.*/
 button {
     background-color: rgba(70, 31, 9, 0.589);
     border-radius: 20px;
@@ -22,6 +28,8 @@ button {
     font-size: 30px;
 }
 
+/*Button hover styling, which will have a different background and color when the pointer hover on the
+buttons.*/
 button:hover {
     background-color: white;
     color: black;

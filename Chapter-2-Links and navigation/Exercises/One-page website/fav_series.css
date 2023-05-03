@@ -1,29 +1,33 @@
+/*Body style. Change of fonts and margin*/
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 50px;
 }
 
+/*A CSS code to remove underline from links to have a clean navigation bar.*/
 .nav {
     list-style-type: none;
     margin: 0;
 
   }
 
+/*A navigational bar that is horzontal, and removing text decorations, and making the font bigger.*/
 .nav_content {
     display: inline;
     margin: 10px;
-    border-radius: 10px;
     text-decoration: none;
     font-size: 30px;
 
 }
 
+/*Heading styling, color change and center align.*/
 h1 {
     text-align: center;
     color: darkgreen;
 }
 
+/*button styling, bigger font.*/
 button {
     border: 10px ;
     padding: 20px;
@@ -32,14 +36,17 @@ button {
 
 }
 
+/*Secondary heading change color.*/
 h2{
     color: darkgreen;
 }
 
+/*Removing other underline to other links, to make them presentable.*/
 a{  
     text-decoration: none;
 }
 
+/*Adding an hover effect to the links in the webpage, to give an illusion of interactivity.*/
 a:hover{
     background-color: darkgreen;
     color: white;

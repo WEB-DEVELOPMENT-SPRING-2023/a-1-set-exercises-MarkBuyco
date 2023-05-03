@@ -1,3 +1,4 @@
+/*Starter code in CSS.*/
 div {
     display: inline-block;
     font-family: sans-serif;
@@ -10,21 +11,27 @@ div {
     height: 200px;
   }
   
-  body {
+/*Another starter code in CSS.*/
+body {
     margin: 100px auto;
     width: max-content;
   }
 
+/*Styling of div A, replicated using border-color and box-shadow.*/
 .A {
    border-color:blueviolet; 
    box-shadow: 10px 10px 10px red;
 }
 
+/*Styling of div B, replicated using border-color and box-shadow, with inset, to make shadow be inside
+instead of outside.*/
 .B {
     border-color:chartreuse;
     box-shadow : 10px 10px 10px inset black;
  }
 
+ /*Styling of div C, replicated using border-color, border-radius, and box-shadow in different values
+ to recreate a rainbow like border.*/
  .C {
     border-color:orange; 
     border-radius: 20px;
@@ -34,6 +41,7 @@ div {
    0 0 0 30px green;
  }
 
+ /*Styling of div D, replicated using border-color and text shadow.*/
  .D {
     border-color:brown; 
     text-shadow: 5px 5px 1px;

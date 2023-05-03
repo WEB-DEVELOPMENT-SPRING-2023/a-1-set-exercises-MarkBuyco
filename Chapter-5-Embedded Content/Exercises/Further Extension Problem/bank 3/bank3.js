@@ -1,3 +1,4 @@
+//Identical to the first bank, except, new set of sounds.
 const sounds = ['Wah-Wah-Wah-Waaaaah!', 'What-are-those', 'Whip', 'Why-are-you-running?','Why-you-bully-me', 
 'Wilhelm-Scream', 'Yeah-boy', 'Windows-Error', 'Windows-XP-Shutdown']
 

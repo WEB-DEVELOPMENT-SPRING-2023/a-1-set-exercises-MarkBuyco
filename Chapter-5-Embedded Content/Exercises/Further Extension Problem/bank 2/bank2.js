@@ -1,3 +1,4 @@
+//Identical to the first bank, except, new set of sounds.
 const sounds = ['Censor-beep', 'Fart', 'Bass', 'Knife-stab','Mario-grabish', 
 'Men-Laughing', 'SHEESH', 'Sinister-laugh', '2-hours-later']
 

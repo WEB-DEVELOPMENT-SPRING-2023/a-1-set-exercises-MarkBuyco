@@ -1,3 +1,6 @@
+/*CSS code for RGB*/
+
+/*Body styling*/
 body{
     background-color: black;
     text-align: center;
@@ -6,6 +9,7 @@ body{
     font-size: 25px;
 }
 
+/*Buttons styling*/
 .button{
     width: 400px;
     height: 400px;
@@ -15,6 +19,7 @@ body{
     padding: 7rem;
 }
 
+/*The button id="next" styling*/
 #next{
     margin-top: 1rem;
     font-family: monospace;

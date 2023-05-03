@@ -1,31 +1,37 @@
+/*First image styling, with a grayscale filter.*/
 .img_1 {
     filter: grayscale(100%);
 }
 
+/*Second image styling, filter using brightness and contrast.*/
 .img_2 {
     filter:brightness(40%);
     filter: contrast(13 0%);
 }
 
+/*Third image syling, with invert and saturate as fiter*/
 .img_3 {
     filter: invert(20%);
     filter: saturate(150%);
 }
 
+/*div styling to make the pictures be aligned in one line.*/
 #parent {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
 
+/*Background color to black.*/
 body {
     background-color: black;
 }
 
+/*paragraph syling, with color, display, font size, font family, and adding a margin.*/
 p {
     color: aliceblue;
     display: inline;
     font-size: 30px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-right: 325px;
+    margin-right: 255px;
 }

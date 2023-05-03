@@ -1,3 +1,6 @@
+/*This is the CSS file that connects to the index.html*/
+
+/*The header styling, with a background color, text align, color, font-size, font, and padding.*/
 header {
     background-color: #17072b;
     text-align: center;
@@ -8,6 +11,7 @@ header {
     padding: 10px ;
 }
 
+/*Link styling, to remove underline, and change color and add margin.*/
 a {
     text-decoration: none;
     color: white;
@@ -15,26 +19,31 @@ a {
 
 }
 
+/*Changing the font of the main content, as well as the font-size, and added a margin.*/
 main{
     font: arial;
     font-size: 20px;
     margin:20px ;
 }
 
+/*Removing the underline to the headings.*/
 h1, h2 {
     text-decoration: underline;
 }
 
+/*Changing the main div display to flex, to have a column, which will be manipulated below.*/
 .main_div {
     display: flex;
     margin: 5px;
 
 }
 
+/*The left column, which is slighly bigger than the right.*/
 .left{
     flex: 55%;
 }
 
+/*The right column, smaller column, with color and background-color.*/
 .right{
     color: white;
     background-color: #172d67;
@@ -42,6 +51,7 @@ h1, h2 {
     padding: 30px;
 }
 
+/*Changing the footer style with a background color, text align, color, and height.*/
 footer {
     background-color: #8c15e9;
     text-align: center;

@@ -10,41 +10,53 @@
 </head>
 
 <body>
-
+    <!--Heading-->
     <h1>Petrol Calculator</h1>
 
+<!--main content-->
 <main>
-
+    <!--two divs inside a div, to make two columns, left and right.-->
     <div class="main_div">
 
+        <!--Left div-->
         <div class="left">
+            <!--Label for petrol cost-->
             <label for="petrol_cost">Cost of petrol per liter:</label>
             <br><br>
+            <!--Input with id to be used in javascript, and type, so the user will input only numbers.-->
             <input type="number" id="petrol_cost" />
         
             <br><br>
+            <!--A button when click will run a function.-->
             <button type="button" onclick="getInputValue()">
                 Calculate
             </button>
 
+            <!--A paragraph that will display the output.-->
             <p id="output"></p>
         </div>
 
+        <!--RIght div-->
         <div class="right">
+            <!--Label for petrol purchase-->
             <label for="petrol_purchase">How much liter of petrol do you want to purchase?</label>
             <br><br>
+            <!--Input with type and id-->
             <input type="number" id="petrol_purchase" />
         
             <br><br>
+            <!--Button when click will run another function.-->
             <button type="button" onclick="getInputValue2()">
                 Calculate
             </button>
             
+            <!--Paragraph that will display output.-->
             <p id="output2"></p>
         </div>
         </div>
 </main>
 
+    <!--Script to link html to javascript.-->
       <script src="petrol.js"></script>
 </body>
 </html>

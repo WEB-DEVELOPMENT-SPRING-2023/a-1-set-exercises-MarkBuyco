@@ -11,8 +11,13 @@
 <body>
     <h1>Further Extension Problem</h1>
 
+    <!--two divs inside a div to make two columns, first column for the text-to-speech feature, second
+    column for the soundboard itself. -->
     <div class="main_div">
 
+        <!--The text-to-speech function, with getting voice from the internet, added a text area, and
+        an input button, which when clicked will play the textspeak function, which in javascript
+        will play the voice.-->
         <div class="left">
             <h2>Text to Speech</h2>
             <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
@@ -20,42 +25,55 @@
             <input type="button" onclick="textspeak()" value="Read">
         </div>
 
+        <!--Second column identical to the first soundboard.-->
         <div class="right">
             <h2>Sample Bank 1</h2>
-            <audio id="Ah-ha" src= "/Chapter-5-Embedded Content/Exercises/Audio Sampler/Audio/ah-ha.mp3" type="audio/mpeg">
+            <audio id="Ah-ha" src= "/Chapter-5-Embedded Content/Exercises/Audio Sampler/Audio/ah-ha.mp3" 
+            type="audio/mpeg">
             </audio>
         
-            <audio id="Back-of-the-net" src="/Chapter-5-Embedded Content/Exercises/Audio Sampler/Audio/back-of-the-net.mp3" type="audio/mpeg">
+            <audio id="Back-of-the-net" src="/Chapter-5-Embedded Content/Exercises/Audio Sampler/Audio/back-of-the-net.mp3" 
+            type="audio/mpeg">
             </audio>
         
-            <audio id="Bang-out-of-order" src="/Chapter-5-Embedded Content/Exercises/Audio Sampler/Audio/bangoutoforder.mp3" type="audio/mpeg">
+            <audio id="Bang-out-of-order" src="/Chapter-5-Embedded Content/Exercises/Audio Sampler/Audio/bangoutoforder.mp3" 
+            type="audio/mpeg">
             </audio>
         
-            <audio id="Dan" src="/Chapter-5-Embedded Content/Exercises/Audio Sampler/Audio/dan.mp3" type="audio/mpeg">
+            <audio id="Dan" src="/Chapter-5-Embedded Content/Exercises/Audio Sampler/Audio/dan.mp3" 
+            type="audio/mpeg">
             </audio>
         
-            <audio id="Email-of-the-evening" src="/Chapter-5-Embedded Content/Exercises/Audio Sampler/Audio/emailoftheevening.mp3" type="audio/mpeg">
+            <audio id="Email-of-the-evening" src="/Chapter-5-Embedded Content/Exercises/Audio Sampler/Audio/emailoftheevening.mp3" 
+            type="audio/mpeg">
             </audio>
         
-            <audio id="Hello-partridge" src="/Chapter-5-Embedded Content/Exercises/Audio Sampler/Audio/hellopartridge.mp3" type="audio/mpeg">
+            <audio id="Hello-partridge" src="/Chapter-5-Embedded Content/Exercises/Audio Sampler/Audio/hellopartridge.mp3" 
+            type="audio/mpeg">
             </audio>
         
-            <audio id="I-ate-a-scotch-egg" src="/Chapter-5-Embedded Content/Exercises/Audio Sampler/Audio/iateascotchegg.mp3" type="audio/mpeg">
+            <audio id="I-ate-a-scotch-egg" src="/Chapter-5-Embedded Content/Exercises/Audio Sampler/Audio/iateascotchegg.mp3" 
+            type="audio/mpeg">
             </audio>
         
-            <audio id="Im-confused" src="/Chapter-5-Embedded Content/Exercises/Audio Sampler/Audio/imconfused.mp3" type="audio/mpeg">
+            <audio id="Im-confused" src="/Chapter-5-Embedded Content/Exercises/Audio Sampler/Audio/imconfused.mp3" 
+            type="audio/mpeg">
             </audio>
 
-            <audio id="You-win" src="/Chapter-5-Embedded Content/Exercises/NewAudio/You Win.mp3" type="audio/mpeg">
+            <!--I added one more audio.-->
+            <audio id="You-win" src="/Chapter-5-Embedded Content/Exercises/NewAudio/You Win.mp3" 
+            type="audio/mpeg">
             </audio>
 
-            <div onclick="myFunction()" id="buttons"></div> 
+            <!--A div for the buttons-->
+            <div id="buttons"></div> 
 
+            <!--A link to another html using images, for the second bank.-->
             <a href="bank 2/bank2.html"><img src="images/right.png" ></a>
         </div>
         </div>
  
-    
+    <!--Linking the javascript file.-->
     <script src="Further Extension Problem.js"></script>
 
 

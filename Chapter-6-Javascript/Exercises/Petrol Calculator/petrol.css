@@ -1,3 +1,4 @@
+/*Body styling*/
 body{
     text-align: center;
     margin: 4rem;
@@ -6,11 +7,13 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*Heading one styling*/
 h1{
     color: rgb(20, 15, 45);
     font-family:monospace;
 }
 
+/*main sytling with a box, border, and shadow.*/
 main {  
     background-color: rgb(244, 157, 55);
     padding: 3rem;
@@ -18,19 +21,23 @@ main {
     box-shadow: 5px 10px;
 }
 
+/*Main div into display flex to make two columns.*/
 .main_div {
     display: flex;
 
 }
 
+/*Left column*/
 .left{
     flex: 50%;
 }
 
+/*RIght column*/
 .right{
     flex: 50%;
 }
 
+/*Button styling, using border radius, removing border.*/
 button{
     border-radius: 1rem;
     border: none;
@@ -38,17 +45,20 @@ button{
     padding: 1rem;
 }
 
+/*Input styling*/
 input{
     font-size: 30px;
     text-align: center;
     border-radius: 1rem;
 }
 
+/*Hover effects in buttons and inputs.*/
 button:hover, input:hover{
     background-color:rgb(215, 38, 56) ;
     color: white;
 }
 
+/*Color of paragraph.*/
 p {
     color: rgb(20, 15, 45)  ;
 }

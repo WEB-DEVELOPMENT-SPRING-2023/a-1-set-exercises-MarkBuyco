@@ -1,33 +1,39 @@
+/*These are the codes that I used to change the background color of the heading to a certain color.*/
 .CSS1 {background-color: rgb(255, 230, 0);}
 
 .CSS1_2 {background-color: rgb(255, 0, 0);}
 
 .CSS1_3 {background-color: rgb(255, 102, 0);}
 
+/*The code below are the ones I used for the second example to manipulate the font-size.*/
 .CSS2 {font-size: 200%;}
 
 .CSS2_2 {font-size: 250%;}
 
 .CSS2_3 {font-size: 300%;}
 
+/*The third example below is to change the color of the text.*/
 .CSS3 {color: rgb(219, 1, 48);}
 
 .CSS3_2 {color: rgb(243, 54, 186);}
 
 .CSS3_3 {color: rgb(232, 9, 240);}
 
+/*The fourth example to showcase the some of the many different border style you can use in CSS.*/
 .CSS4 {border-style:dashed;}
 
 .CSS4_2 {border-style:dotted;}
 
 .CSS4_3 {border-style:solid;}
 
+/*Going to the fifth example, I used different fonts.*/
 .CSS5 {font-family:'Courier New', Courier, monospace;}
 
 .CSS5_2 {font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
 .CSS5_3 {font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
+/*In this example I showed how height/width could manipulate different elements in html.*/
 .CSS6 {
     background-color: rgb(19, 42, 19);
     height: 50px;
@@ -48,7 +54,8 @@
     width: 600px;
     color: aliceblue;
 }
-   
+ 
+/*This property showcases the margin, I gave three different margin size to see how it affects the webpage*/
 .CSS7 {
     border: 1px solid;
     margin: 10px;
@@ -64,6 +71,8 @@
     margin: 50px;
 }
 
+/*Lastly, the border radius property with different values to show how it could round corners of the
+border, plus I made the border thicker and aligned it to the center.*/
 .CSS8 {
     border: 2px solid ;
     border-radius: 20px ;
@@ -82,12 +91,15 @@
     text-align: center;
 }
 
+/*This is body, where I changed the font, margin, and padding.*/
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 30px;
     padding: 1rem;
 }
 
+/*Main is the class of my heading 1, so I used it to make the font bigger, center aligned, with 
+white text and black background.*/
 .main{
     font-size: 70px;
     text-align: center;
@@ -95,15 +107,17 @@ body {
     color: rgb(255, 255, 255);
 }
 
+/*Changing the font size of the second heading.*/
 h2 {
-    border: 10px;
     font-size: 50px;
 }
 
+/*Changing font size for the tag, to make it bigger.*/
 dt {
     font-size: 30px;
 }
 
+/*Changing the code font size a little bit bigger.*/
 code {
     font-size: 15px;
 }
